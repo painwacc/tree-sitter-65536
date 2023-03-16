@@ -4,9 +4,17 @@
     "source_file": {
       "type": "STRING",
       "value": "hello"
+    },
+    "line_comment": {
+      "type": "PATTERN",
+      "value": "#[^\\n\\r]*[\\n\\r]*"
     }
   },
   "extras": [
+    {
+      "type": "SYMBOL",
+      "name": "line_comment"
+    },
     {
       "type": "PATTERN",
       "value": "\\s"
