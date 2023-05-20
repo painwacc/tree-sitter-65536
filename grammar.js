@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: 'small',
+  name: 'YOUR_LANGUAGE_NAME',
 
   extras: $ => [
     $.line_comment,
