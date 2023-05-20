@@ -7,7 +7,7 @@ CXX=clang++
 all: runner
 
 tree-sitter/libtree-sitter.a:
-	make -C tree-sitter CC="${CC}" CXX="${CXX}" CFLAGS="${CFLAGS}" libtree-sitter.a
+	$(MAKE) -C tree-sitter CC="${CC}" CXX="${CXX}" CFLAGS="${CFLAGS}" libtree-sitter.a
 
 parser.o: ../src/parser.c
 	$(CC) $(CFLAGS) $< -o $@ -c -I tree-sitter/lib/include/
