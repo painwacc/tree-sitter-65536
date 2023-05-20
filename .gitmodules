@@ -1,0 +1,3 @@
+[submodule "sanitize/tree-sitter"]
+	path = sanitize/tree-sitter
+	url = https://github.com/tree-sitter/tree-sitter.git
